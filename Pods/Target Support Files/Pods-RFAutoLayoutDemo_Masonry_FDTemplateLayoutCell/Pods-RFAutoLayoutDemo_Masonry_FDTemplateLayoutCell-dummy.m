@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell : NSObject
+@end
+@implementation PodsDummy_Pods_RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell
+@end

@@ -16,6 +16,13 @@
 		215B1E4E215C6E190084581D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E4D215C6E190084581D /* main.m */; };
 		215B1E58215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E57215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.m */; };
 		215B1E63215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E62215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.m */; };
+		215B1E72215C6FFC0084581D /* RFMonentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E71215C6FFC0084581D /* RFMonentCell.m */; };
+		215B1E76215C782B0084581D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 215B1E75215C782B0084581D /* data.json */; };
+		215B1E79215C784A0084581D /* MonentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E78215C784A0084581D /* MonentModel.m */; };
+		215B1E7E215CBA4B0084581D /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 215B1E7C215CBA4B0084581D /* YYFPSLabel.m */; };
+		419D0F4EF877BEE44776E600 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40768A4125A78F6A581DBC /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a */; };
+		4F2B4725C23E23DD5214D701 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EF9CAECAC3900C6D8B158C /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a */; };
+		98B8F30CDC36BC8352EFCC62 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D566AE543EA17E551E991C65 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F3F8AC99F68A2DB4F95F8C0 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		215B1E38215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		215B1E3B215C6E170084581D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		215B1E3C215C6E170084581D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +61,23 @@
 		215B1E5E215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		215B1E62215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.m; sourceTree = "<group>"; };
 		215B1E64215C6E190084581D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215B1E70215C6FFC0084581D /* RFMonentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFMonentCell.h; sourceTree = "<group>"; };
+		215B1E71215C6FFC0084581D /* RFMonentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFMonentCell.m; sourceTree = "<group>"; };
+		215B1E73215C71DB0084581D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		215B1E74215C737A0084581D /* RFBaseMacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseMacroHeader.h; sourceTree = "<group>"; };
+		215B1E75215C782B0084581D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		215B1E77215C784A0084581D /* MonentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonentModel.h; sourceTree = "<group>"; };
+		215B1E78215C784A0084581D /* MonentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonentModel.m; sourceTree = "<group>"; };
+		215B1E7C215CBA4B0084581D /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		215B1E7D215CBA4B0084581D /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		3ABEFAC97765BE27C8819760 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.debug.xcconfig"; sourceTree = "<group>"; };
+		3C40768A4125A78F6A581DBC /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5819F0EA27E586920A2039 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.release.xcconfig"; sourceTree = "<group>"; };
+		52EF9CAECAC3900C6D8B158C /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61258F642F917779448EA98D /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.release.xcconfig"; sourceTree = "<group>"; };
+		8F3011DFB1735A6CB81E3D2C /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D566AE543EA17E551E991C65 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B26AFED0494CAA9B0648BD /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2B4725C23E23DD5214D701 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B8F30CDC36BC8352EFCC62 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419D0F4EF877BEE44776E600 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +112,12 @@
 			isa = PBXGroup;
 			children = (
 				215B1E3A215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell */,
+				215B1E7B215CBA3E0084581D /* Other */,
 				215B1E56215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests */,
 				215B1E61215C6E190084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests */,
 				215B1E39215C6E170084581D /* Products */,
+				8B188871FC1817434E4A0EFD /* Pods */,
+				5DDCA68F374716601058556B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +134,14 @@
 		215B1E3A215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
-				215B1E3B215C6E170084581D /* AppDelegate.h */,
-				215B1E3C215C6E170084581D /* AppDelegate.m */,
+				215B1E7A215CBA140084581D /* AppEntry */,
 				215B1E3E215C6E170084581D /* ViewController.h */,
 				215B1E3F215C6E170084581D /* ViewController.m */,
-				215B1E41215C6E170084581D /* Main.storyboard */,
-				215B1E47215C6E190084581D /* Assets.xcassets */,
-				215B1E49215C6E190084581D /* LaunchScreen.storyboard */,
-				215B1E4C215C6E190084581D /* Info.plist */,
-				215B1E4D215C6E190084581D /* main.m */,
-				215B1E44215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.xcdatamodeld */,
+				215B1E70215C6FFC0084581D /* RFMonentCell.h */,
+				215B1E71215C6FFC0084581D /* RFMonentCell.m */,
+				215B1E77215C784A0084581D /* MonentModel.h */,
+				215B1E78215C784A0084581D /* MonentModel.m */,
+				215B1E75215C782B0084581D /* data.json */,
 			);
 			path = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell;
 			sourceTree = "<group>";
@@ -135,6 +164,55 @@
 			path = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests;
 			sourceTree = "<group>";
 		};
+		215B1E7A215CBA140084581D /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				215B1E3B215C6E170084581D /* AppDelegate.h */,
+				215B1E3C215C6E170084581D /* AppDelegate.m */,
+				215B1E74215C737A0084581D /* RFBaseMacroHeader.h */,
+				215B1E73215C71DB0084581D /* PrefixHeader.pch */,
+				215B1E41215C6E170084581D /* Main.storyboard */,
+				215B1E47215C6E190084581D /* Assets.xcassets */,
+				215B1E49215C6E190084581D /* LaunchScreen.storyboard */,
+				215B1E4C215C6E190084581D /* Info.plist */,
+				215B1E4D215C6E190084581D /* main.m */,
+				215B1E44215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.xcdatamodeld */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		215B1E7B215CBA3E0084581D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				215B1E7D215CBA4B0084581D /* YYFPSLabel.h */,
+				215B1E7C215CBA4B0084581D /* YYFPSLabel.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5DDCA68F374716601058556B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EF9CAECAC3900C6D8B158C /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.a */,
+				D566AE543EA17E551E991C65 /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.a */,
+				3C40768A4125A78F6A581DBC /* libPods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B188871FC1817434E4A0EFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEFAC97765BE27C8819760 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.debug.xcconfig */,
+				61258F642F917779448EA98D /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.release.xcconfig */,
+				F6B26AFED0494CAA9B0648BD /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.debug.xcconfig */,
+				3D5819F0EA27E586920A2039 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.release.xcconfig */,
+				1F3F8AC99F68A2DB4F95F8C0 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.debug.xcconfig */,
+				8F3011DFB1735A6CB81E3D2C /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215B1E67215C6E190084581D /* Build configuration list for PBXNativeTarget "RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell" */;
 			buildPhases = (
+				75D58F7869624341AF0F69A3 /* [CP] Check Pods Manifest.lock */,
 				215B1E34215C6E170084581D /* Sources */,
 				215B1E35215C6E170084581D /* Frameworks */,
 				215B1E36215C6E170084581D /* Resources */,
@@ -159,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215B1E6A215C6E190084581D /* Build configuration list for PBXNativeTarget "RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests" */;
 			buildPhases = (
+				B73991ADCB5D48115F6E0026 /* [CP] Check Pods Manifest.lock */,
 				215B1E4F215C6E190084581D /* Sources */,
 				215B1E50215C6E190084581D /* Frameworks */,
 				215B1E51215C6E190084581D /* Resources */,
@@ -177,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215B1E6D215C6E190084581D /* Build configuration list for PBXNativeTarget "RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests" */;
 			buildPhases = (
+				26FB7B4C8BD752F5C8EA52D6 /* [CP] Check Pods Manifest.lock */,
 				215B1E5A215C6E190084581D /* Sources */,
 				215B1E5B215C6E190084581D /* Frameworks */,
 				215B1E5C215C6E190084581D /* Resources */,
@@ -241,6 +322,7 @@
 				215B1E4B215C6E190084581D /* LaunchScreen.storyboard in Resources */,
 				215B1E48215C6E190084581D /* Assets.xcassets in Resources */,
 				215B1E43215C6E170084581D /* Main.storyboard in Resources */,
+				215B1E76215C782B0084581D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +342,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26FB7B4C8BD752F5C8EA52D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D58F7869624341AF0F69A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73991ADCB5D48115F6E0026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		215B1E34215C6E170084581D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215B1E7E215CBA4B0084581D /* YYFPSLabel.m in Sources */,
+				215B1E72215C6FFC0084581D /* RFMonentCell.m in Sources */,
 				215B1E46215C6E170084581D /* RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.xcdatamodeld in Sources */,
+				215B1E79215C784A0084581D /* MonentModel.m in Sources */,
 				215B1E40215C6E170084581D /* ViewController.m in Sources */,
 				215B1E4E215C6E190084581D /* main.m in Sources */,
 				215B1E3D215C6E170084581D /* AppDelegate.m in Sources */,
@@ -435,10 +577,14 @@
 		};
 		215B1E68215C6E190084581D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABEFAC97765BE27C8819760 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/Info.plist;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/AppEntry/PrefixHeader.pch";
+				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,10 +597,14 @@
 		};
 		215B1E69215C6E190084581D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61258F642F917779448EA98D /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/Info.plist;
+				DEVELOPMENT_TEAM = TM6D7482ZM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/AppEntry/PrefixHeader.pch";
+				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCell/AppEntry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +617,7 @@
 		};
 		215B1E6B215C6E190084581D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B26AFED0494CAA9B0648BD /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +636,7 @@
 		};
 		215B1E6C215C6E190084581D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5819F0EA27E586920A2039 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +655,7 @@
 		};
 		215B1E6E215C6E190084581D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F3F8AC99F68A2DB4F95F8C0 /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests/Info.plist;
@@ -520,6 +673,7 @@
 		};
 		215B1E6F215C6E190084581D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3011DFB1735A6CB81E3D2C /* Pods-RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RFAutoLayoutDemo_Masonry_FDTemplateLayoutCellUITests/Info.plist;
